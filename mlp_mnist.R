@@ -1,11 +1,12 @@
 # mlp_mnist.R
 
 #install.packages("keras")
-
 library(keras)
 
-# Data preparation
+#install_keras(tensorflow = "gpu")
+#install_keras()
 
+# Data preparation
 batch_size  <- 128
 num_classes <- 10
 epochs      <- 30
